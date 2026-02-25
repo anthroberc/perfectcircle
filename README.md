@@ -3,14 +3,15 @@
 > **Can you draw a perfect circle by hand?**
 > Draw one stroke, release, and find out instantly — scored on circularity, symmetry, and closure.
 
-Built by [Anthroberc](https://x.com/anthroberc)
+**Created and owned by [Anthroberc](https://x.com/anthroberc)**
+
+> ⚠️ **This is exclusive property of Anthroberc. Not licensed for personal or commercial use. All rights reserved.**
 
 ---
 
 ## 📖 Table of Contents
 
 - [What is Perfect Circle?](#what-is-perfect-circle)
-- [Live Demo](#live-demo)
 - [How to Use It](#how-to-use-it)
 - [Understanding Your Score](#understanding-your-score)
 - [How the Scoring Works (Under the Hood)](#how-the-scoring-works-under-the-hood)
@@ -18,6 +19,7 @@ Built by [Anthroberc](https://x.com/anthroberc)
 - [Tips to Score Higher](#tips-to-score-higher)
 - [Running the File Locally](#running-the-file-locally)
 - [Technical Details](#technical-details)
+- [License](#license)
 - [Credits](#credits)
 
 ---
@@ -30,22 +32,12 @@ It's inspired by the classic "can you draw a perfect circle?" challenge. It work
 
 ---
 
-## Live Demo
-
-Just open `perfect-circle-pro.html` in any modern web browser. That's it — no setup, no install.
-
-```
-Double-click perfect-circle-pro.html → opens in your browser → start drawing
-```
-
----
-
 ## How to Use It
 
 Using Perfect Circle is as simple as it gets. Here's a step-by-step:
 
 **Step 1 — Open the file**
-Open `perfect-circle-pro.html` in your browser (Chrome, Firefox, Safari, Edge all work).
+Open `index.html` in your browser (Chrome, Firefox, Safari, Edge all work).
 
 **Step 2 — Draw your circle**
 Click and hold (or press and hold on mobile), then drag to draw a circle shape anywhere on the screen. The app will trace your stroke in real time.
@@ -131,7 +123,7 @@ Here's what everything on the screen means:
 │                                          │
 │                                          │
 │              87.3%                       │  ← Your score (giant text)
-│           GREAT SHAPE                    │  ← Status label
+│           GREAT SHAPE                    │  ← Status label                  
 │                                          │
 │                                          │
 │  Streak                  One continuous  │  ← Bottom bar
@@ -173,7 +165,7 @@ Getting a high score is harder than it looks. Here are some tips:
 The app is entirely self-contained in one HTML file. To run it:
 
 **Option 1 — Just double-click it**
-Find `perfect-circle-pro.html` in your file explorer and double-click. It will open in your default browser.
+Find `index.html` in your file explorer and double-click. It will open in your default browser.
 
 **Option 2 — Drag into browser**
 Open your browser and drag the file into the browser window.
@@ -181,13 +173,13 @@ Open your browser and drag the file into the browser window.
 **Option 3 — Via terminal**
 ```bash
 # Mac
-open perfect-circle-pro.html
+open index.html
 
 # Windows
-start perfect-circle-pro.html
+start index.html
 
 # Linux
-xdg-open perfect-circle-pro.html
+xdg-open index.html
 ```
 
 > 💡 You need an internet connection the first time to load the fonts (Bebas Neue + DM Mono from Google Fonts). After that it works fully offline.
@@ -198,6 +190,7 @@ xdg-open perfect-circle-pro.html
 
 | Property | Value |
 |----------|-------|
+| **File name** | `index.html` |
 | **File type** | Single HTML file |
 | **File size** | ~11 KB (minified) |
 | **Dependencies** | Google Fonts (Bebas Neue, DM Mono) |
@@ -210,15 +203,30 @@ xdg-open perfect-circle-pro.html
 | **Data stored** | Nothing — no cookies, no localStorage, no tracking |
 
 ### Why is the code on one line?
-The source code is **minified** — all whitespace and line breaks have been removed. This makes the file slightly smaller and harder to casually copy. The app functions identically to the readable version.
+The source code is **minified** — all whitespace and line breaks have been removed. This makes the file slightly smaller and harder to casually copy. The app functions identically to a readable version.
+
+---
+
+## License
+
+**© Anthroberc. All rights reserved.**
+
+This project is the **exclusive property of [Anthroberc](https://x.com/anthroberc)**.
+
+- ❌ You may **not** use, copy, modify, or distribute this project for **personal use**
+- ❌ You may **not** use, copy, modify, or distribute this project for **commercial use**
+- ❌ You may **not** host, republish, or claim ownership of this project
+- ❌ No license is granted to any individual or organization
+
+Any unauthorized use is strictly prohibited.
 
 ---
 
 ## Credits
 
-**Created by [Anthroberc](https://x.com/anthroberc)**
+**Created and owned by [Anthroberc](https://x.com/anthroberc)**
 
-Follow on X (Twitter) for more projects: [@anthroberc](https://x.com/anthroberc)
+Follow on X: [@anthroberc](https://x.com/anthroberc)
 
 ---
 
